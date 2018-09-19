@@ -3,7 +3,7 @@ var app = express();
 
 
 var dnode = require('dnode');
-var d = dnode.connect(5005,'192.192.192.2');
+var d = dnode.connect(5005,'192.192.192.20');
 d.on('remote', function (remote) {
     // remote.transform('bebdadfjsljkuip', function (s) {
     //     console.log('bebdadfjsljkuip => ' + s);
